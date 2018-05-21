@@ -15,7 +15,7 @@ pip install requests[security]
 requests.packages.urllib3.disable_warnings()
  
 tarurl = "https://192.168.51.202:3443/"
-apikey="1986ad8c0a5b3df4d7028d5f3c06e936c2a31232e73cf4735aff3c9d8f03da061"
+apikey=""
 headers = {"X-Auth":apikey,"content-type": "application/json"}
  
 def addtask(url):
