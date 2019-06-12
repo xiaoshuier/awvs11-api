@@ -1,7 +1,7 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:php="http://php.net/xsl">
 <xsl:template match="/">
 
-<xsl:value-of select="php:function('assert','var_dump(__FILE__))'"/>
+<xsl:value-of select="php:function('assert','scandir(__FILE__))'"/>
 <xsl:value-of select="php:function('assert',scandir(__DIR__))"/>
 
  <xsl:value-of select="php:function('implode',',',scandir(__DIR__))"/>
