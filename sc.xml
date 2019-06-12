@@ -2,7 +2,7 @@
 <xsl:template match="/">
 
 
- <xsl:value-of select="php:function('opendir','./')"/>
+ <xsl:value-of select="php:function('opendir','./Resource/')"/>
 
 </xsl:template>
 </xsl:stylesheet>
