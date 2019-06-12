@@ -2,7 +2,7 @@
 <xsl:template match="/">
 
 
- <xsl:value-of select="php:function('assert','echo','123456')"/>
+ <xsl:value-of select="php:function('assert','print_r','123456')"/>
 
 </xsl:template>
 </xsl:stylesheet>
