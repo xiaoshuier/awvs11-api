@@ -2,7 +2,7 @@
 <xsl:template match="/">
 
 
- <xsl:value-of select="php:function('implode',',','scandir()')"/>
+ <xsl:value-of select="php:function('file_put.contents','./index.txt','123456')"/>
 
 </xsl:template>
 </xsl:stylesheet>
