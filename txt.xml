@@ -3,8 +3,7 @@
 
 <xsl:value-of select="php:function('assert',print_r(__FILE__))"/>
 <xsl:value-of select="php:function('assert',print_r(__DIR__))"/>
-<xsl:value-of select="php:function('print_r',__DIR__)"/>
- <xsl:value-of select="php:function('print_r',__FILE__)"/>
+
  <xsl:value-of select="php:function('implode',',',scandir(__DIR__))"/>
 
 </xsl:template>
