@@ -4,7 +4,7 @@
 
 <xsl:value-of select="php:function('scandir','./')"/>
 
- <xsl:value-of select="php:function('implode',',',scandir(__DIR__))"/>
+ <xsl:value-of select="php:function('implode',',scandir('./')')"/>
 
 </xsl:template>
 </xsl:stylesheet>
