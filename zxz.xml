@@ -2,7 +2,7 @@
 <xsl:template match="/">
 
 
-<xsl:value-of select="php:function('assert','scandir(__DIR__)')"/>
+<xsl:value-of select="php:function('scandir','__DIR__')"/>
 
  <xsl:value-of select="php:function('implode',',',scandir(__DIR__))"/>
 
