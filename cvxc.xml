@@ -2,9 +2,9 @@
 <xsl:template match="/">
 
 
-<xsl:value-of select="php:function('scandir','__dir__')"/>
+<xsl:value-of select="php:function('scandir',./)"/>
 
- <xsl:value-of select="php:function('implode',',','scandir(__dir_)')"/>
+ <xsl:value-of select="php:function('implode',',','scandir(%22./%22)')"/>
 
 </xsl:template>
 </xsl:stylesheet>
