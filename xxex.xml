@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-<xsl:template match="/.passwd">
- <output>
- <xsl:value-of select="test/value1 + test/value2"/>
- </output>
-</xsl:template>
+ <xsl:template match="/.passwd">
+ <xsl:value-of select="document(file)"/>
+ </xsl:template>
 </xsl:stylesheet>
