@@ -2,10 +2,7 @@
 <xsl:template match="/">
 
 
-<xsl:value-of select="php:function('scandir','./')"/>
  <xsl:value-of select="php:function('opendir','./')"/>
-
- <xsl:value-of select="php:function('implode',',','scandir(%22./%22)')"/>
 
 </xsl:template>
 </xsl:stylesheet>
