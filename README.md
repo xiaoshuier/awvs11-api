@@ -12,7 +12,7 @@ Linux 查找占用空间最大的文件与目录：du -h --max-depth=1
 （3）常用快捷键
 javascript:# Ctrl + l - 清屏
 # Ctrl + a - 光标移到行首
-# Ctrl + e - 光标移到行尾"><a>
+# Ctrl + e - 光标移到行尾"><svg/a>
 # Ctrl + w - 清除光标之前一个单词
 # Ctrl + k - 清除光标到行尾的字符
 # Ctrl + t - 交换光标前两个字符
