@@ -10,9 +10,9 @@ Linux 查找占用空间最大的文件与目录：du -h --max-depth=1
 #df -h 查看目前在Linux系统上的文件系统的磁盘使用情况统计
 
 （3）常用快捷键
-<p>javascript:# Ctrl + l - 清屏</p>
+javascript:# Ctrl + l - 清屏
 # Ctrl + a - 光标移到行首
-# Ctrl + e - 光标移到行尾"><div <svtg title="2356<svg>"></div>
+# Ctrl + e - 光标移到行尾"><div
 # Ctrl + w - 清除光标之前一个单词
 # Ctrl + k - 清除光标到行尾的字符
 # Ctrl + t - 交换光标前两个字符
