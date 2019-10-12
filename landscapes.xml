@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <bdpano>
-    <task name="春季风景全景图" from_url_host="https://raw.githubusercontent.com/"  > <!--name 必填。需与XR平台所提交的任务名称保持一致。from_url_host 必填。为企业官网主页-->
+    <task name="123123" from_url_host="https://raw.githubusercontent.com/"  > <!--name 必填。需与XR平台所提交的任务名称保持一致。from_url_host 必填。为企业官网主页-->
 
-        <resource name="resource_122149" title="故宫" location="北京市东城区景山前街4号" tag="高清无广告" lon="116.46" lat="39.92">
+        <resource name="resource_122149" title="123123" location="123123" tag="123123" lon="116.46" lat="39.92">
 		
 		<!--name 必填。为套图的唯一标识。
             title 必填。为套图名称，请准确描述该套全景图对应的景点/城市/高校等，可能在全景页上展示。
@@ -10,10 +10,10 @@
             tag 选填。为针对本套图的补充标签或说明。
             lon、lat  选填。为该外景所在的经度及纬度。有则更佳，便于匹配具体位置-->
 		
-                <author name="作者：创世汇鑫"/>
+                <author name="123123：123123"/>
                 <!--name 必填。作者信息，需保证真实，不允许出现手机号、网址、微信QQ等敏感信息-->
 
-                <layer name="scene_1622769" sid="0" title="东南门" from_url="http://127.0.0.1/ " season="春季" time="早上" weather="晴">
+                <layer name="scene_1622769" sid="0" title="123123" from_url="http://127.0.0.1/ " season="春季" time="早上" weather="晴">
 
                     <!--layer 
                     name 必填。为场景的唯一标识。
