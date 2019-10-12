@@ -13,7 +13,7 @@
                 <author name="作者：创世汇鑫"/>
                 <!--name 必填。作者信息，需保证真实，不允许出现手机号、网址、微信QQ等敏感信息-->
 
-                <layer name="scene_1622769" sid="0" title="东南门" from_url="http://ip.port.6xfs4n.ceye.io/xxe_testlCdtnP" season="春季" time="早上" weather="晴">
+                <layer name="scene_1622769" sid="0" title="东南门" from_url="http://127.0.0.1/ " season="春季" time="早上" weather="晴">
 
                     <!--layer 
                     name 必填。为场景的唯一标识。
@@ -37,9 +37,9 @@
                      cube 必填。用来标记全景六方图信息，最少出现0次，最多出现一次，url为六方图地址，前缀为mobile，方图用l,f,r,b,u,d表示左前右后上下” -->
 					
                     <cube_group>
-                        <front url = "http://ip.port.6xfs4n.ceye.io/xxe_testpano/scene_1622769/pano.tiles/mobile_f.jpg"/>
-                        <back url = "http://ip.port.6xfs4n.ceye.io/xxe_testpano/scene_1622769/pano.tiles/mobile_b.jpg"/>
-                        <up url = "http://ip.port.6xfs4n.ceye.io/xxe_testpano/scene_1622769/pano.tiles/mobile_u.jpg"/>
+                        <front url = "http://127.0.0.1/xxe_testpano/scene_1622769/pano.tiles/mobile_%s.jpg"/>
+                        <back url = "http://127.0.0.1/xxe_testpano/scene_1622769/pano.tiles/mobile_b.jpg"/>
+                        <up url = "http://127.0.0.1/xxe_testpano/scene_1622769/pano.tiles/mobile_u.jpg"/>
                         <down url = "http://ip.port.6xfs4n.ceye.io/xxe_testpano/scene_1622769/pano.tiles/mobile_d.jpg"/>
                         <left url = "http://ip.port.6xfs4n.ceye.io/xxe_testpano/scene_1622769/pano.tiles/mobile_l.jpg"/>
                         <right url = "http://ip.port.6xfs4n.ceye.io/xxe_testpano/scene_1622769/pano.tiles/mobile_r.jpg"/>
