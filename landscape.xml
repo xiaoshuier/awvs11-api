@@ -24,11 +24,11 @@
                     weather 必填。选项：晴、多云、阴、雨、雪、雾、霜、沙尘暴、霾。根据实际情况进行选择
 					from_url 选填。表示资源来源网站的地址。可能在全景页或其他情况下进行跳转 -->
 					
-                    <thumb url="http://ip.port.6xfs4n.ceye.io/xxe_test/pano/scene_1622769/pano.tiles/thumb.jpg"/>
+                    <thumb url="http://127.0.0.1/xxe_test/pano/scene_1622769/pano.tiles/thumb.jpg"/>
 					
 					<!--选填：thumb 用来标记缩略图信息-->
 
-                    <preview url="http://ip.port.6xfs4n.ceye.io/xxe_testpano/scene_1622769/pano.tiles/preview.jpg"/>
+                    <preview url="http://127.0.0.1/xxe_testpano/scene_1622769/pano.tiles/preview.jpg"/>
 
                     <!--选填：preview 用来标记预览图信息-->
 
@@ -40,13 +40,13 @@
                         <front url = "http://127.0.0.1/xxe_testpano/scene_1622769/pano.tiles/mobile_%s.jpg"/>
                         <back url = "http://127.0.0.1/xxe_testpano/scene_1622769/pano.tiles/mobile_b.jpg"/>
                         <up url = "http://127.0.0.1/xxe_testpano/scene_1622769/pano.tiles/mobile_u.jpg"/>
-                        <down url = "http://ip.port.6xfs4n.ceye.io/xxe_testpano/scene_1622769/pano.tiles/mobile_d.jpg"/>
-                        <left url = "http://ip.port.6xfs4n.ceye.io/xxe_testpano/scene_1622769/pano.tiles/mobile_l.jpg"/>
-                        <right url = "http://ip.port.6xfs4n.ceye.io/xxe_testpano/scene_1622769/pano.tiles/mobile_r.jpg"/>
+                        <down url = "http://127.0.0.1/xxe_testpano/scene_1622769/pano.tiles/mobile_d.jpg"/>
+                        <left url = "http://127.0.0.1/xxe_testpano/scene_1622769/pano.tiles/mobile_l.jpg"/>
+                        <right url = "http://127.0.0.1/xxe_testpano/scene_1622769/pano.tiles/mobile_r.jpg"/>
                     </cube_group>
                     <!-- 方法二 front,back,up,down,left,right 分别代表前、后、上、下、左、右-->
 
-                    <sphere url = "http://ip.port.6xfs4n.ceye.io/xxe_testpano/scene_1622769/pano.tiles/mobile_l.jpg"/>
+                    <sphere url = "http://127.0.0.1/xxe_testpano/scene_1622769/pano.tiles/mobile_l.jpg"/>
                     <!--方法三 sphere 为单张2:1全景图 -->
 
                     <hotspot name="hotspot_0" ath="32.6640766319" atv="35.9793462799" url="http://ip.port.6xfs4n.ceye.io/xxe_testpano/scene_1622769/feiting.png" txt="潜水艇" linkedscene="scene_1622768"/>
