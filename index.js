@@ -21,7 +21,7 @@ const req = https.request(options, (res) => {
   // 数据接收完成
   res.on('end', () => {
     console.log('🔍 百度首页 HTML 内容（前500字预览）:\n');
-    console.log(data.slice(0, 500)); // 只打印前 500 字
+    console.log(data); // 只打印前 500 字
   });
 });
 
