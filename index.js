@@ -3,7 +3,7 @@ const https = require('https');
 const options = {
   hostname: 'www.baidu.com',
   port: 443,
-  path: '/',
+  path: '/s?wd=%E9%A3%9E%E4%B9%A6%E5%AE%98%E7%BD%91%E4%B8%8B%E8%BD%BD',
   method: 'GET',
   headers: {
     'User-Agent': 'Mozilla/5.0 (Node.js)'
